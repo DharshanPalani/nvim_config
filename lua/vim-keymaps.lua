@@ -4,3 +4,7 @@ vim.keymap.set("n", "<Space>f", builtin.live_grep, { desc = "Telescope live grep
 vim.keymap.set("n", "<C-e>", ":Neotree toggle<CR>", { desc = "Toggle Neo-tree" })
 vim.keymap.set("n", "<C-f>", ":Neotree focus<CR>",{desc = "Focus Neo-Tree"})
 
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=2")
+vim.cmd("set softtabstop=2")
+vim.cmd("set shiftwidth=2")
