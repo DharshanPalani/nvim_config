@@ -1,8 +1,8 @@
 local builtin = require("telescope.builtin")
---vim.keymap.set("n", "<Space><Space>", builtin.find_files, { desc = "Telescope find files" })
---vim.keymap.set("n", "<Space>f", builtin.live_grep, { desc = "Telescope live grep" })
-vim.keymap.set("n", "<C-e>", ":Neotree toggle<CR>", { desc = "Toggle Neo-tree" })
-vim.keymap.set("n", "<C-f>", ":Neotree focus<CR>",{desc = "Focus Neo-Tree"})
+vim.keymap.set("n", "<Space><Space>", builtin.find_files, { desc = "Telescope find files" })
+vim.keymap.set("n", "<Space>f", builtin.live_grep, { desc = "Telescope live grep" })
+--vim.keymap.set("n", "<C-e>", ":Neotree toggle<CR>", { desc = "Toggle Neo-tree" })
+--vim.keymap.set("n", "<C-f>", ":Neotree focus<CR>",{desc = "Focus Neo-Tree"})
 
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
