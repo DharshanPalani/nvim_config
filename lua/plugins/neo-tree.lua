@@ -1,4 +1,4 @@
---[[return {
+return {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
     dependencies = {
@@ -7,7 +7,7 @@
       "MunifTanjim/nui.nvim",
     },
     lazy = false,
-    config = function()
+    --[[config = function()
       require("neo-tree").setup({
         close_if_last_window = true,
         popup_border_style = "rounded",
@@ -15,5 +15,5 @@
         enable_diagnostics = false,
         window = { position = "right", width = 30 },
       })
-    end,
-}]]--
+    end,]]--
+}
